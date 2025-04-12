@@ -1,0 +1,56 @@
+{
+  "name": "standard-backend-template-node-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "swc src -d dist",
+    "start": "node dist/server.js",
+    "generate": "prisma generate"
+  },
+  "prisma": {
+    "schema": "src/core/prisma"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/compression": "^1.7.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/node": "^22.14.0",
+    "@types/nodemailer": "^6.4.17",
+    "prisma": "^6.6.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@arcjet/inspect": "^1.0.0-beta.5",
+    "@arcjet/node": "^1.0.0-beta.5",
+    "@prisma/client": "^6.6.0",
+    "@swc/cli": "^0.6.0",
+    "@swc/core": "^1.11.20",
+    "@types/cookie-parser": "^1.4.8",
+    "@types/morgan": "^1.9.9",
+    "@types/pug": "^2.0.10",
+    "bcrypt": "^5.1.1",
+    "compression": "^1.8.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "D": "^1.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "ioredis": "^5.6.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.10.0",
+    "pug": "^3.0.3",
+    "winston": "^3.17.0",
+    "zod": "^3.24.2"
+  }
+}
