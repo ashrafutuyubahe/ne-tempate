@@ -50,6 +50,7 @@
     "morgan": "^1.10.0",
     "nodemailer": "^6.10.0",
     "pug": "^3.0.3",
+    "standard-backend-template-node-express": "file:",
     "winston": "^3.17.0",
     "zod": "^3.24.2"
   }
