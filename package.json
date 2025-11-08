@@ -31,7 +31,7 @@
     "-": "^0.0.1",
     "@arcjet/inspect": "^1.0.0-beta.5",
     "@arcjet/node": "^1.0.0-beta.5",
-    "@prisma/client": "^6.6.0",
+    "@prisma/client": "^6.17.1",
     "@swc/cli": "^0.6.0",
     "@swc/core": "^1.11.20",
     "@types/cookie-parser": "^1.4.8",
