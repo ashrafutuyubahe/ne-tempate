@@ -33,7 +33,7 @@
     "@arcjet/node": "^1.0.0-beta.5",
     "@prisma/client": "^6.6.0",
     "@swc/cli": "^0.6.0",
-    "@swc/core": "^1.11.20",
+    "@swc/core": "^1.13.20",
     "@types/cookie-parser": "^1.4.8",
     "@types/morgan": "^1.9.9",
     "@types/pug": "^2.0.10",
