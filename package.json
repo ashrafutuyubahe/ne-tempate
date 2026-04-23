@@ -52,6 +52,6 @@
     "pug": "^3.0.3",
     "standard-backend-template-node-express": "file:",
     "winston": "^3.17.0",
-    "zod": "^3.24.2"
+    "zod": "^3.25.76"
   }
 }
